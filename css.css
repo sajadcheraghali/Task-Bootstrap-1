@@ -1,0 +1,39 @@
+.picture-1{
+    width: 30px;
+    height: 30px;
+}
+.w-i{
+    width: inherit;
+}
+#w-1{
+    width: 250px;
+    height: 140px;
+}
+.w-2{
+    height: 40px;
+}
+.wof{
+    max-width: 200px;
+}
+@media  (max-width: 768px) {
+    #w-1{
+        width:100% ;
+       background-color: aqua; 
+        
+    }
+    .picture-3{
+        display: none;
+    }
+}
+.w-3{
+    min-width: 700px;
+    
+}
+.end{
+    /* right: 100px; */
+    left: 10px;
+    bottom: 10px;
+}
+#light,#dark{
+    cursor: pointer;
+}
